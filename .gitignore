@@ -1,0 +1,51 @@
+# Dependencies
+node_modules/
+venv/
+__pycache__/
+*.pyc
+
+# Environment
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Build outputs
+dist/
+build/
+target/
+
+# Tuist generated files
+*.xcodeproj
+*.xcworkspace
+Derived/
+.build/
+
+# Xcode
+DerivedData/
+*.xcuserdata
+*.framework
+*.profraw
+.package.resolved
+
+# Swift executables (CLI binary)
+initium
+
+# Vault
+.vault
+.vaultmanifest
+
+# Claude
+CLAUDE.md
